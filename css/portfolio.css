@@ -38,7 +38,7 @@ p {
 .hero h2 {
   font-family: var(--paragraph-font-family);
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
   color: var(--primary-font-color);
   font-weight: 500;
 }
@@ -82,16 +82,20 @@ p {
 }
 
 @media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
   .description {
     text-align: center;
     padding: 0px 20px;
   }
 
-  h1 {
-    font-size: 60px;
-  }
-
-  h2 {
-    font-size: 48px;
+  .hero {
+    padding: 80px 20px;
   }
 }
