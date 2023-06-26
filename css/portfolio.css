@@ -99,3 +99,64 @@ p {
     padding: 80px 20px;
   }
 }
+
+.about-me {
+  background: var(--background-color);
+}
+
+.about-section {
+  padding: 160px 0px;
+}
+.about-section img {
+  display: flex;
+  width: 290px;
+  margin: 0 auto;
+  border: 20px solid var(--branding-color);
+}
+
+.about-section h1 {
+  font-size: 64px;
+  font-weight: 800px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-family: var(--paragraph-font-family);
+  font-size: 18px;
+  font-weight: 800px;
+  text-align: center;
+}
+
+.about-section p {
+  font-family: var(--paragraph-font-family);
+  font-size: 18px;
+  font-weight: 500px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.btn-about-projects {
+  background: var(--branding-color);
+  color: var(--primary-font-color);
+  border-radius: 4px;
+  font-family: "Arimo", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 200px;
+}
+
+@media (max-width: 900px) {
+  .btn-about-projects {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 20px;
+  }
+  .about-section {
+    padding: 80px 20px;
+  }
+}
