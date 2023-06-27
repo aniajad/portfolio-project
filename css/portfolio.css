@@ -100,34 +100,34 @@ p {
   }
 }
 
-.about-me {
+.content {
   background: var(--background-color);
 }
 
-.about-section {
+.content-container {
   padding: 160px 0px;
 }
-.about-section img {
+.content-container img {
   display: flex;
   width: 290px;
   margin: 0 auto;
   border: 20px solid var(--branding-color);
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   font-weight: 800px;
   text-align: center;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-family: var(--paragraph-font-family);
   font-size: 18px;
   font-weight: 800px;
   text-align: center;
 }
 
-.about-section p {
+.content-container p {
   font-family: var(--paragraph-font-family);
   font-size: 18px;
   font-weight: 500px;
@@ -156,7 +156,7 @@ p {
     line-height: 24px;
     padding: 10px 20px;
   }
-  .about-section {
+  .content-container {
     padding: 80px 20px;
   }
 }
