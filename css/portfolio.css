@@ -250,4 +250,8 @@ footer .social-links a:hover {
   footer .contact-box {
     padding: 20px;
   }
+
+  footer {
+    padding: 0px;
+  }
 }
